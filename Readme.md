@@ -11,3 +11,10 @@ Primitive types:
 5. void: Used to indicate that a function doesn't return a value.
 6. any: A dynamic type that allows any value to be assigned to it. It's generally not recommended to use any unless necessary, as it bypasses TypeScript's type checking.
 7. never: Represents a value that never occurs. It's typically used to indicate that a function never returns or always throws an error.
+## Object types:
+1. object: Represents a non-primitive value, such as an array, function, or a user-defined object.
+2. Array: Represents an ordered collection of values. You can specify the type of elements in the array using square brackets, e.g., number[] or string[].
+3. Tuple: Represents a fixed-length array with each element having a specific type.
+4. Enum: Represents a set of named constants.
+## Function types:
+Function: Represents a function. You can specify the types of the function's parameters and return value.

@@ -26,3 +26,22 @@ dynamicValue = "Hello";
 function throwError(): never {
   throw new Error("Something went wrong!");
 }
+
+
+// Object type
+interface Person {
+  name: string;
+  age: number;
+}
+
+const person: Person = {
+  name: "John Doe",
+  age: 25,
+};
+
+// Function type
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet(person.name)); // Output: Hello, John Doe!
