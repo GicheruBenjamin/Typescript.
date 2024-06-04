@@ -34,7 +34,7 @@ interface Person {
   age: number;
 }
 
-const person: Person = {
+const Andy: Person = {
   name: "John Doe",
   age: 25,
 };
@@ -44,4 +44,27 @@ function greet(name: string): string {
   return `Hello, ${name}!`;
 }
 
-console.log(greet(person.name)); // Output: Hello, John Doe!
+console.log(greet(Andy.name)); 
+
+// Tuple type
+let person: [string, number] = ["John Doe", 25];
+
+console.log(person[0]); 
+console.log(person[1]);
+
+// Enum type
+enum Color {
+  Red,
+  Green,
+  Blue,
+}
+
+let favoriteColor: Color = Color.Green;
+
+console.log(favoriteColor); 
+
+// Array type
+let numbers: number[] = [1, 2, 3, 4, 5];
+
+console.log(numbers[0]);
+console.log(numbers[numbers.length - 1]); 
