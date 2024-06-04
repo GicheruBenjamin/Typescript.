@@ -18,3 +18,12 @@ Primitive types:
 4. Enum: Represents a set of named constants.
 ## Function types:
 Function: Represents a function. You can specify the types of the function's parameters and return value.
+## Union and intersection types:
+1. |: Allows you to create a type that can be one of several types.
+2. &: Allows you to combine multiple types into a single type.
+## Interface:
+interface: Allows you to define a contract for an object, specifying the types of its properties and methods.
+
+### View the output
+<div>tsc index </div>
+<div>node index</div>
